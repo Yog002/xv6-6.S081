@@ -14,7 +14,7 @@ sys_exit(void)
   if(argint(0, &n) < 0)
     return -1;
   exit(n);
-  return 0;  // not reached
+  return 0;   // not reached
 }
 
 uint64
@@ -84,7 +84,7 @@ sys_kill(void)
 }
 
 // return how many clock tick interrupts have occurred
-// since start.
+// since start
 uint64
 sys_uptime(void)
 {

@@ -103,7 +103,7 @@ printf(char *fmt, ...)
       consputc('%');
       break;
     default:
-      // Print unknown % sequence to draw attention.
+      // Print unknown % sequence to draw attention
       consputc('%');
       consputc(c);
       break;
