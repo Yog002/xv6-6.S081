@@ -38,7 +38,6 @@ main(int argc, char *argv[]){
 
     int pid = fork();
     if(pid != 0){
-        // first
         close(p[0]);
         for(int i = 2; i <= 35; i++){
             write(p[1], &i, 4);
