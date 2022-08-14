@@ -126,6 +126,7 @@ panic(char *s)
     ;
 }
 
+
 void
 printfinit(void)
 {

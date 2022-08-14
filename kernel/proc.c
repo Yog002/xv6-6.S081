@@ -327,7 +327,6 @@ fork(void)
   }
 
   release(&np->lock);
-
   return pid;
 }
 
