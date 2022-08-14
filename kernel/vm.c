@@ -324,6 +324,7 @@ uvmcopy(pagetable_t old, pagetable_t new, uint64 sz)
   return -1;
 }
 
+
 // mark a PTE invalid for user access.
 // used by exec for the user stack guard page.
 void

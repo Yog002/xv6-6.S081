@@ -114,6 +114,7 @@ printf(char *fmt, ...)
     release(&pr.lock);
 }
 
+
 void
 panic(char *s)
 {
