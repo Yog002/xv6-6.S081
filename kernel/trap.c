@@ -83,6 +83,7 @@ usertrap(void)
   usertrapret();
 }
 
+
 //
 // return to user space
 //

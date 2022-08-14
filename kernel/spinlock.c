@@ -8,6 +8,7 @@
 #include "proc.h"
 #include "defs.h"
 
+
 #ifdef LAB_LOCK
 #define NLOCK 500
 
