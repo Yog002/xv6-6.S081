@@ -8,6 +8,7 @@
 #include "proc.h"
 #include "defs.h"
 
+
 void
 initlock(struct spinlock *lk, char *name)
 {
