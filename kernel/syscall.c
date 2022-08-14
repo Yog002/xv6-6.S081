@@ -133,7 +133,7 @@ static uint64 (*syscalls[])(void) = {
 [SYS_sysinfo] sys_sysinfo,
 };
 
-// name of syscall
+// 系统调用名称
 static char *syscall_name[] = {
 [SYS_fork]    "fork",
 [SYS_exit]    "exit",
