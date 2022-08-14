@@ -23,7 +23,7 @@ extern char trampoline[]; // trampoline.S
 
 extern pagetable_t kernel_pagetable;
 
-// initialize the proc table at boot time.
+// initialize the proc table at boot time
 void
 procinit(void)
 {
